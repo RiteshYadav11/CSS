@@ -1,0 +1,17 @@
+.box-1 {
+    padding: 50px;
+    width: 400px;
+    height: 200px;
+    border: 10px solid lightblue;
+    background: antiquewhite;
+    box-sizing: content-box;
+}
+
+.box-2 {
+    padding: 50px;
+    width: 500px;
+    height: 200px;
+    border: 10px solid lightblue;
+    background: antiquewhite;
+    box-sizing: border-box;
+}
