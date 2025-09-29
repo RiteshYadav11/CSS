@@ -1,0 +1,51 @@
+.block-element {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid lightcoral;
+    border-radius: 5px;
+}
+
+.inline-element {
+    font-size: 18px;
+    border: 2px solid;
+    padding: 80px;
+}
+
+.inline-element-word {
+    /* we can see that it move only right and left and donot on top and bottom it grow but the top and bottom element do not move. */
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    padding: 100px;
+    margin: 40px;
+    border: 10px solid lightblue;
+    display: inline;
+}
+
+.reversed-inline-element {
+    border: 10px solid rgb(123, 255, 255);
+    width: 100px;
+    height: 100px;
+}
+
+.inline-block-element {
+    font-size: 18px;
+    padding: 80px;
+    border: 2px solid;
+}
+
+.inline-block-element-word {
+    display: inline-block;
+    font-size: larger;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(201, 246, 207);
+    padding: 100px;
+    margin: 40px;
+    border: 10px solid lightblue;
+}
